@@ -1,7 +1,6 @@
 ![logo](https://s3.amazonaws.com/bottega-devcamp/bottega-devcamp.png)
 
 ## Hi there! Welcome to Bottega Devcamp
- ##some content la la la 
  
 ### Instructions to enter into the bash shell
 
