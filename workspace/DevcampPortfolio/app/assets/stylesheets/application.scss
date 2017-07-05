@@ -15,7 +15,7 @@ a:hover {
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: #334;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
@@ -160,3 +160,16 @@ body {
     width: 55rem;
   }
 }
+
+ /*
+  * Custom Styles
+  */
+ 
+ .card-block {
+   color: black;
+   text-align: left;
+ }
+ 
+ .auth-links a {
+   color: black;
+ }
