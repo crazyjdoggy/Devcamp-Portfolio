@@ -16,7 +16,7 @@ a:hover {
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #334;
+  color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
@@ -157,38 +157,37 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 
- /*
-  * Custom Styles
-  */
- 
- .card-block {
-   color: black;
-   text-align: left;
- }
- 
- .auth-links a {
-   color: black;
- }
- 
- .register-text {
-   text-align: right;
-} 
- 
- .login > .card {
-   width: 22rem;
-   margin: 0 auto;
-   float: none;
- }
- 
- .app-nav span {
+/*
+ * Custom Styles
+ */
+
+.card-block {
+  color: black;
+  text-align: left;
+}
+
+.auth-links a {
+  color: black;
+}
+
+.register-text {
+  text-align: right;
+}
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+}
+
+.app-nav span {
   margin-left: 15px;
   margin-right: 15px;
-} 
- 
+}
 
 #background {
   position: fixed;
@@ -206,14 +205,18 @@ body {
 }
 
 .app-footer {
-color: white;
+  color: white;
 }
 
- 
- 
- 
- 
- 
- 
- 
- 
+.tech-news {
+  color: black;
+  margin: 20px;
+}
+
+.tech-news > .card {
+  padding: 30px;
+}
+
+.tech-news a {
+  color: green;
+}
