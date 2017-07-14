@@ -10,10 +10,11 @@
   </div>
 
   <div class="form-group">
+    <% doesNotExist = if blog.topic.nil? then 0 end %>
     <%= f.label :topic_id %>
     <%= f.collection_select(:topic_id, Topic.all, :id, :title,
                               {
-                                selected: blog.topic.id,
+                                selected: doesNotExist,
                                 include_blank: true
                               },
                               class: 'form-control'
